@@ -26,6 +26,8 @@ get '/:operation/:number1/:number2' do
 case params[:operation]
       when "add" then
         "#{@number1 + @number2}"
+        when "subtract" then 
+          "#{@number1 - @number2}"
        
         
       end
