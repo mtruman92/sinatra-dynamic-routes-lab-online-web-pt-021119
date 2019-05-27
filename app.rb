@@ -28,7 +28,8 @@ case params[:operation]
         "#{@number1 + @number2}"
         when "subtract" then 
           "#{@number1 - @number2}"
-       
+       when "multiply" then 
+          "#{@number1 * @number2}"
         
       end
 end
