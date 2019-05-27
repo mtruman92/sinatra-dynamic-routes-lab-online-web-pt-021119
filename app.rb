@@ -28,13 +28,12 @@ case params[:operation]
         "#{@number1 + @number2}"
         when "subtract" then 
           "#{@number1 - @number2}"
-       when "multiply" then 
+        when "multiply" then 
           "#{@number1 * @number2}"
-          when "divide" then 
+        when "divide" then 
           "#{@number1 / @number2}"
       end
-end
-
+    end
 end
 
   
